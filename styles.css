@@ -1,70 +1,27 @@
 html, body {
-margin:0;
-padding:0;
-}
-/*
-section
-{
-	padding: 2%;
-}
-*/
-h2
-{
-	display: inline-block;
-	padding-bottom: 1%;
-	border-bottom-width: 2px;
-	border-bottom-style: outset;
-	margin-bottom: 3%;
+	margin:0;
+	padding:0;
 }
 
-p
+h1
 {
-	font:normal 1em/1.5 Helvetica;
+	font-family: Helvetica;
+	display:inline-block;
+	color: white;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	border-bottom-style: inset;
+	margin-bottom: 0;
 }
 
-#about-me
+#summary
 {
-	padding-bottom: 2%;
-}
-
-#education
-{
-	padding-left: 20%;
-	padding-right: 20%;
-}
-
-.edu-section
-{
-	width: 100%;
-}
-
-.edu-fig
-{
-	display: inline-block;
-}
-
-.edu-fig img
-{
-	width: 40%;
-}
-
-.edu-fig figcaption
-{
-	width: 40%;
-	text-align: center;	
-}
-#skills
-{
-	/*background-color: white;*/
-}
-
-#projects
-{
-	/*background-color: gray;*/	
+	font-family: Helvetica;
+	font-weight: bold;
+	color: silver;
 }
 
 #pfp{
-	/*padding-top: 100px;*/
 	width: 20%;
 	height: 20%;
 	border-radius: 50%;
@@ -76,16 +33,26 @@ p
 	padding-bottom: 25px;
 }
 
-#summary
-{
-	margin-top: -10px;
-	color: white;
-}
-
 #main-header{
 	text-align: center;
 	background-image: url(img/background.jpg);
 	background-size: 100%;
+}
+
+h2
+{
+	display: inline-block;
+	/*padding-bottom: 1%;*/
+	border-bottom-width: 3px;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border-color: #2D90A9;
+	border-bottom-style: outset;
+	margin-bottom: 3%;
+}
+
+p
+{
+	font:normal 1em/1.5 Helvetica;
 }
 
 #nav
@@ -93,7 +60,6 @@ p
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	margin-top: -5px;
-	/*background-color: #DCDCDD;*/
 }
 
 #nav a
@@ -111,13 +77,6 @@ p
 	color: #2D90A9;
 }
 
-h1
-{
-	display:inline-block;
-	color: white;
-	font-size: 3em;
-	border-bottom-style: inset;
-}
 
 #about-me
 {
@@ -125,20 +84,40 @@ h1
 	padding-right: 20%;
 }
 
-/*#about-me-pic
+#about-me
 {
-	/*display: inline-block;*/
-	display: none;
-	height: 20%;
-	width: 20%;
-}*/
-
-/*#main-content
-{
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-bottom: 2%;
 }
-*/
+
+#education
+{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.edu-section
+{
+	width: 100%;
+	padding-bottom: 2%;
+	border-color: #2D90A9;
+	border-bottom-style: double;
+}
+
+.edu-fig
+{
+	display: inline-block;
+}
+
+.edu-fig img
+{
+	width: 40%;
+}
+
+.edu-fig figcaption
+{
+	width: 40%;
+	text-align: center;	
+}
 
 #skills-fig-set
 {
@@ -155,6 +134,7 @@ h1
 {
 	width: 100px;
 	height: 100px;
+	display: inline-block;
 }
 
 .skills-fig figcaption
