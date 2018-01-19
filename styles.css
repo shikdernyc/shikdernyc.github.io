@@ -1,7 +1,58 @@
 #pfp{
-	display: block;
+	/*padding-top: 100px;*/
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+}
+
+#pfp-summary{
+	padding-top: 125px;
+	padding-bottom: 25px;
+}
+
+#main-header{
+	width: 100%;
+	text-align: center;
+	background-image: url(https://placeimg.com/1000/750/tech);
+	background-size: 100%;
+}
+
+main
+{
+	padding:0 5%;
+}
+
+.skills-ico{
+	width: 100px;
+	height: 100px;
+}
+
+.skills-fig
+{
+	width: 100px;
+	display: inline-grid;
+}
+
+.center-content
+{
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 10%;
-	height: 10%;
+}
+
+.projects-fig
+{	display: inline-table;
+	width: 450px;
+}
+
+.projects-img
+{
+	width: 375px;
+	height: 375px;
+}
+
+.sm-img
+{
+	width: 40px;
+	height: 40px;
 }
