@@ -3,6 +3,11 @@ main
 	/*margin-left: -100%;*/
 }
 
+html, body {
+margin:0;
+padding:0;
+}
+
 section
 {
 	padding-bottom: 3%;
