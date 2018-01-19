@@ -1,3 +1,39 @@
+main
+{
+	background: linear-gradient(#DCDCDD,#C5C3C6);
+}
+
+section
+{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#about-me
+{
+
+}
+
+#education
+{
+
+}
+
+#skills
+{
+
+}
+
+#projects
+{
+
+}
+
+#contacts
+{
+
+}
+
 #pfp{
 	/*padding-top: 100px;*/
 	width: 15%;
@@ -11,17 +47,54 @@
 }
 
 #main-header{
-	width: 100%;
 	text-align: center;
-	background-image: url(https://placeimg.com/1000/750/tech);
+	background-image: url(img/background.jpg);
 	background-size: 100%;
 }
 
-main
+#nav
 {
-	padding:0 5%;
+	padding: 3px;
+	background-color: #A6A6A8;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	margin-top: -10px;
+	/*background-color: #DCDCDD;*/
 }
 
+#nav a
+{
+	padding: 10px;
+	display: inline-block;
+	list-style-type: none;
+	color: #4C5C68;
+	text-decoration: none;
+}
+
+#nav a:hover
+{
+	color: #2D90A9;
+}
+
+h1
+{
+	color: silver;
+}
+
+#summary
+{
+	color: white;
+}
+
+#about-me
+{
+
+}
+
+#main-content
+{
+	padding-left: 15%;
+	padding-right: 15%;
+}
 .skills-ico{
 	width: 100px;
 	height: 100px;
@@ -42,17 +115,17 @@ main
 
 .projects-fig
 {	display: inline-table;
-	width: 450px;
+	width: 350px;
 }
 
 .projects-img
 {
-	width: 375px;
-	height: 375px;
+	width: 250px;
+	height: 250px;
 }
 
 .sm-img
 {
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 }

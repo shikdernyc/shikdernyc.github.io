@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>ShikderNYC</title>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="footer-styles.css">
 </head>
 <body>
 	<div>
@@ -12,108 +12,112 @@
 			<div id="pfp-summary">
 				<img id="pfp" class="center-content" src="img/pfp.jpg" alt="Asif Shikder">
 				<h1>Asif Shikder</h1>
-				<h3>Student | Programmer | Tutor </h3>
+				<h3 id="summary">Student | Programmer | Tutor </h3>
 			</div>
 		</header><!-- /header -->
 		<main>
-			<div id="main-nav">
+			<div id="main-nav" class="center-content">
 				<ul id="nav">
-					<a href="#about-me"><li>About me</li></a>
-					<a href="#education"><li>Eduction</li></a>
-					<a href="#skills"><li>Skills</li></a>
-					<a href="#projects"><li>Projects</li></a>
-					<a href="#contacts"><li>Contacts</li></a>
+					<a href="#about-me">About Me</a>
+					·
+					<a href="#">Education</a>
+					·
+					<a href="#">Skills</a>
+					·
+					<a href="#">Projects</a>
 				</ul>	
 			</div>
-			<div class="">
-				<header id="about-me" class="center-content">
-					<h2>About me</h2>
-				</header><!-- /header -->
-				<div>
-					<p>
-						From the age of 7, when I took apart my toy cars and pieced together bunch of LED lights to serve an arc reactor to my imagination, I’ve always wanted to be Ironman. I wanted to be an Engineer.
-					</p>
-					<p>
-						I am currently a first year in college, majoring in Computer Science. I have enough credit to be a sophomore so I don’t know if I am a sophomore or a freshmen. I’ve always loved learning about Computer Science and college has only enforced that even more. Outside of school, I enjoy playing basketball, lifting and recently billiards. I also enjoy working on personal projects.
-					</p>
-					<p>
-						For the next three to four years, I hope to gain as much experience and exposure to the field of computer science and one day become an amazing software engineer.
-					</p>
-				</div>
-			</div>
-			<div class="">
-				<header id="education" class="center-content">
-					<h2>Education</h2>
-				</header><!-- /header -->
-				<div id="education-content">
-					<h3>Brooklyn Technical High School</h3>
-					<h4>GPA: 3.0</h4>
-					<h4>Summary</h4>
-					<p>I didn’t have the most successful story in Brooklyn Tech, however I am thankful for everything I’ve learned there. Tech definitely puts their students through rigorous work load and prepares them for the outside world. Furthermore, their major system allows their students to experiment with picking a path for college and find out weather they will like the path or not. My path lead me to take on courses such as AP Physics 1, AP Physics 2, AP Calculus AB, Digital System Design and AP Computer Science A - Java.</p>
-					<h3>New York City College of Technology</h3>
-					<h4>GPA: 4.0</h4>
-					<h4>Summary</h4>
-					<p>I got to learn a lot about Computer Science in my time in City Tech. The professor’s at City Tech has given me a lot of insight into what it is like to pursue a career in my field and I am grateful for everything they have taught me. Unfortunately, I will be transferring from City Tech after the Spring 2018 semester. </p>
-				</div>
-			</div>
-			<div class="">
-				<header id="skills" class="center-content">
-					<h2>Skills</h2>
-				</header><!-- /header -->
-				<div id="skills-fig-set" class="center-content">
-					<figure class="skills-fig">
-						<img src="img/ico/java.svg" alt="Java" class="skills-ico">
-						<figcaption>
-							<h4>Java</h4>
-							<p>Proficient and preferred language</p>
-						</figcaption>
-					</figure>
-					<figure class="skills-fig">
-						<img src="img/ico/android.svg" alt="Android Studio" class="skills-ico">
-						<figcaption>
-							<h4>Android Studio</h4>
-							<p>Familiar and strong with Android Development due to a strong Java background.</p>
-						</figcaption>
-					</figure>
-					<figure class="skills-fig">
-						<img src="img/ico/python.svg" alt="Python" class="skills-ico">
-						<figcaption>
-							<h4>Python</h4>
-							<p>Self taught and only know the basics. </p>
-						</figcaption>
-					</figure>
-					<figure class="skills-fig">
-						<img src="img/ico/html5.svg" alt="HTML5" class="skills-ico">
-						<figcaption>
-							<h4>HTML5</h4>
-							<p>Self taught as well as enhancing knowledge in my upcoming semester</p>
-						</figcaption>
-					</figure>
-					<figure class="skills-fig">
-						<img src="img/ico/css3.svg" alt="CSS3" class="skills-ico">
-						<figcaption>
-							<h4>CSS3</h4>
-							<p>Self taught as well as enhancing knowledge in my upcoming semester</p>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-			<div class="">
-				<header id="projects" class="center-content">
-					<h2>Projects</h2>
-				</header><!-- /header -->
-				<div class="center-content">
-					<figure class="projects-fig" id="eleven-fig">
-						<img src="img/proj/eleven.png" alt="Eleven" class="projects-img">
-						<figcaption class="">
-							<h3>Eleven</h3>
-							<p>
-								<b>Category</b>: School Project<br>
-								<b>Status</b>: Completed <br>
-								<b>Language</b>: Java <br>
-								<b>Description</b>: The popular card game called Eleven. The object of the game is to match two cards that adds up to eleven or pick a 
-								queen - king - jack pair. You've won the game once all the 52 cards on a standard deck is cleared. You lose if there's no possible combo left on the board.<br>
-								<b>Link to Project</b>: <a target="_blank" href="https://github.com/shikdernyc/Eleven" title="Eleven">Eleven</a>
+			<div id="main-content">
+				<section id="about-me">
+					<header class="center-content">
+						<h2>About me</h2>
+					</header><!-- /header -->
+					<div>
+						<p>
+							From the age of 7, when I took apart my toy cars and pieced together bunch of LED lights to serve an arc reactor to my imagination, I’ve always wanted to be Ironman. I wanted to be an Engineer.
+						</p>
+						<p>
+							I am currently a first year in college, majoring in Computer Science. I have enough credit to be a sophomore so I don’t know if I am a sophomore or a freshmen. I’ve always loved learning about Computer Science and college has only enforced that even more. Outside of school, I enjoy playing basketball, lifting and recently billiards. I also enjoy working on personal projects.
+						</p>
+						<p>
+							For the next three to four years, I hope to gain as much experience and exposure to the field of computer science and one day become an amazing software engineer.
+						</p>
+					</div>
+				</section>
+				<section id="education">
+					<header class="center-content">
+						<h2>Education</h2>
+					</header><!-- /header -->
+					<div id="education-content">
+						<h3>Brooklyn Technical High School</h3>
+						<h4>GPA: 3.0</h4>
+						<h4>Summary</h4>
+						<p>I didn’t have the most successful story in Brooklyn Tech, however I am thankful for everything I’ve learned there. Tech definitely puts their students through rigorous work load and prepares them for the outside world. Furthermore, their major system allows their students to experiment with picking a path for college and find out weather they will like the path or not. My path lead me to take on courses such as AP Physics 1, AP Physics 2, AP Calculus AB, Digital System Design and AP Computer Science A - Java.</p>
+						<h3>New York City College of Technology</h3>
+						<h4>GPA: 4.0</h4>
+						<h4>Summary</h4>
+						<p>I got to learn a lot about Computer Science in my time in City Tech. The professor’s at City Tech has given me a lot of insight into what it is like to pursue a career in my field and I am grateful for everything they have taught me. Unfortunately, I will be transferring from City Tech after the Spring 2018 semester. </p>
+					</div>
+				</section>
+				<section id="skills">
+					<header class="center-content">
+						<h2>Skills</h2>
+					</header><!-- /header -->
+					<div id="skills-fig-set" class="center-content">
+						<figure class="skills-fig">
+							<img src="img/ico/java.svg" alt="Java" class="skills-ico">
+							<figcaption>
+								<h4>Java</h4>
+								<p>Proficient and preferred language</p>
+							</figcaption>
+						</figure>
+						<figure class="skills-fig">
+							<img src="img/ico/android.svg" alt="Android Studio" class="skills-ico">
+							<figcaption>
+								<h4>Android Studio</h4>
+								<p>Familiar and strong with Android Development due to a strong Java background.</p>
+							</figcaption>
+						</figure>
+						<figure class="skills-fig">
+							<img src="img/ico/python.svg" alt="Python" class="skills-ico">
+							<figcaption>
+								<h4>Python</h4>
+								<p>Self taught and only know the basics. </p>
+							</figcaption>
+						</figure>
+						<figure class="skills-fig">
+							<img src="img/ico/html5.svg" alt="HTML5" class="skills-ico">
+							<figcaption>
+								<h4>HTML5</h4>
+								<p>Self taught as well as enhancing knowledge in my upcoming semester</p>
+							</figcaption>
+						</figure>
+						<figure class="skills-fig">
+							<img src="img/ico/css3.svg" alt="CSS3" class="skills-ico">
+							<figcaption>
+								<h4>CSS3</h4>
+								<p>Self taught as well as enhancing knowledge in my upcoming semester</p>
+							</figcaption>
+						</figure>
+					</div>
+				</section>
+				<section id="projects">
+					<header class="center-content">
+						<h2>Projects</h2>
+					</header><!-- /header -->
+					<div class="center-content">
+						<figure class="projects-fig" id="eleven-fig">
+							<img src="img/proj/eleven.png" alt="Eleven" class="projects-img">
+							<figcaption class="">
+								<h3>Eleven</h3>
+								<p>
+									<b>Category</b>: School Project<br>
+									<b>Status</b>: Completed <br>
+									<b>Language</b>: Java <br>
+									<b>Description</b>: The popular card game called Eleven. The object of the game is to match two cards that adds up to eleven or pick a 
+									queen - king - jack pair. You've won the game once all the 52 cards on a standard deck is cleared. You lose if there's no possible combo left on the board.<br>
+									<b>Link to Project</b>: <a target="_blank" href="https://github.com/shikdernyc/Eleven" title="Eleven">Eleven</a>
+								</p>
 							</figcaption>
 						</figure>
 						<figure class="projects-fig" id="poker-fig">
@@ -135,28 +139,58 @@
 							<img src="img/proj/gradebook.png" alt="GradeBook" class="projects-img">
 							<figcaption class="">
 								<h3></h3>
-								<b>Category</b>: Personal Project <br>
-								<b>Status</b>: On-Going <br>
-								<b>Platform</b>: Android Studio <br>
-								<b>Description</b>: An app to help student get organized with their school work as well as track their progress <br>
-								<b>Link to Project</b>: <a target="_blank" href="https://github.com/shikdernyc/GradeBook" title="GradeBook">GradeBook</a>
+								<p>
+									<b>Category</b>: Personal Project <br>
+									<b>Status</b>: On-Going <br>
+									<b>Platform</b>: Android Studio <br>
+									<b>Description</b>: An app to help student get organized with their school work as well as track their progress <br>
+									<b>Link to Project</b>: <a target="_blank" href="https://github.com/shikdernyc/GradeBook" title="GradeBook">GradeBook</a>
+								</p>
 							</figcaption>
 						</figure>
 					</div>
-				</div>
-				<div>
-					<header id="contacts" class="center-content">
-						<h2>Contacts</h2>
-					</header><!-- /header -->
-					<div id="sm" class="center-content">
+				</section>
+			</main>
+		</div>
+		<footer class="footer-distributed">
+			<div class="footer-left">
+				<p class="footer-links">
+					<a href="#about-me">About Me</a>
+					·
+					<a href="#">Education</a>
+					·
+					<a href="#">Skills</a>
+					·
+					<a href="#">Projects</a>
+				</p>
+
+				<p class="footer-company-name">Company Name &copy; 2015</p>
+
+				<div class="footer-icons">
+
 						<a target="_blank" href="https://github.com/shikdernyc" title="shikdernyc"><img class="sm-img" src="img/sm/github.svg"></a>
-						<a target="_blank" href="mailto:shikdernyc@gmail.com" title="email me"><img class="sm-img" src="img/sm/gmail.svg"></a>
 						<a target="_blank" href="https://www.instagram.com/theasif_" title="theasif_"><img class="sm-img" src="img/sm/instagram.svg"></a>
 						<a target="_blank" href="https://www.facebook.com/ashikderBTHS" title="ashikderBTHS"><img class="sm-img" src="img/sm/facebook.svg"></a>
 						<a target="_blank" href="https://twitter.com/shikderNYC" title="shikderNYC"><img class="sm-img" src="img/sm/twitter.svg"></a>
-					</div>
+
 				</div>
-			</main>
-		</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Us</p>
+
+				<form action="mailto:shikdernyc@gmail.com" method="post">
+
+					<input type="text" name="email" placeholder="email" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
 	</body>
 	</html>
