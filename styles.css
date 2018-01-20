@@ -48,7 +48,8 @@ h1
 	height: 100%;
 	text-align: center;
 	background-image: url(img/background.jpg);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 h2
