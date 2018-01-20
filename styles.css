@@ -105,12 +105,15 @@ p
 	padding: 0;
 }
 
-
 #about-me
 {
 	padding-left: 20%;
 	padding-right: 20%;
 	padding-bottom: 2%;
+}
+
+#about-me-desc{
+	padding: 3%;
 }
 
 #education
@@ -122,12 +125,12 @@ p
 .edu-section
 {
 	margin-bottom: 3%;
-	width: 100%;
+	padding: 3%;
 }
 
 .shadow-box
 {
-	padding: 3%;
+	/*padding: 3%;*/
 	box-shadow: 0 3px 5px 3px silver;
 }
 
