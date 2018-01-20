@@ -16,9 +16,11 @@ h1
 	font-size: 3.5em;
 	text-transform: uppercase;
 	border-bottom-width: 3px;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	text-shadow: 0px 1px 3px silver, 
+	0 2px 5px #2D90A9;
 	border-color: #2D90A9;
 	border-bottom-style: inset;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -38,10 +40,14 @@ h1
 }
 
 #pfp{
-	width: 20%;
-	height: 20%;
+	margin-bottom: 0;
+	width: 15%;
 	border-radius: 50%;
+	/*box-shadow: 0 3px 5px gray*/
 	display: block;
+	/*float: left;*/
+	/*filter: grayscale(80%);*/
+	/*box-shadow: 3px 3px 5px 10px black inset;*/
 }
 
 #main-header{
@@ -55,12 +61,14 @@ h1
 h2
 {
 	text-transform: uppercase;
-	display: inline-block;
-	border-bottom-width: 3px;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border-color: #2D90A9;
-	border-bottom-style: inset;
+	/*display: inline-block;*/
+/*	border-bottom-width: 3px;*/
+/*	border-color: #2D90A9;
+	border-bottom-style: inset;*/
+	text-shadow: 1px 1px 3px #2D90A9;
 	margin-bottom: 3%;
+	text-decoration: underline;
+	text-decoration-color: #2D90A9;
 }
 
 p
@@ -102,10 +110,6 @@ p
 {
 	padding-left: 20%;
 	padding-right: 20%;
-}
-
-#about-me
-{
 	padding-bottom: 2%;
 }
 
@@ -117,28 +121,14 @@ p
 
 .edu-section
 {
-	border-bottom-width: 1px;
+	margin-bottom: 3%;
 	width: 100%;
-	padding-bottom: 2%;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border-color: #2D90A9;
-	border-bottom-style: solid;
 }
 
-.edu-fig
+.shadow-box
 {
-	display: inline-block;
-}
-
-.edu-fig img
-{
-	width: 40%;
-}
-
-.edu-fig figcaption
-{
-	width: 40%;
-	text-align: center;	
+	padding: 3%;
+	box-shadow: 0 3px 5px 3px silver;
 }
 
 #skills-fig-set
@@ -157,6 +147,7 @@ p
 	width: 100px;
 	height: 100px;
 	display: inline-block;
+	box-shadow: 1px 3px 5px 2px silver;
 }
 
 .skills-fig figcaption
@@ -178,12 +169,28 @@ p
 
 .projects-img
 {
+	box-shadow: 1px 3px 5px 2px silver;
 	width: 250px;
 	height: 250px;
+}
+
+.projects-fig-caption h3
+{
+	text-transform: uppercase;
+	text-decoration: underline;
 }
 
 .sm-img
 {
 	width: 35px;
 	height: 35px;
+}
+
+/*clearfix*/
+
+.group:after
+{
+	content: "";
+	display: table;
+	clear: both;
 }
