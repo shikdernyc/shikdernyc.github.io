@@ -1,6 +1,11 @@
-html, body {
+html, body , header, main{
 	margin:0;
 	padding:0;
+}
+
+main
+{
+	background-color: white;
 }
 
 h1
@@ -17,10 +22,18 @@ h1
 	margin-bottom: 0;
 }
 
+#pfp-summary{
+	padding-top: 125px;
+	padding-bottom: 40px/*;
+*/}
+
 #summary
 {
+	margin-top: 20px;
+	margin-bottom: 0;
 	font-family: Helvetica;
 	font-weight: bold;
+	font-size: 1.1em;
 	color: silver;
 }
 
@@ -31,12 +44,8 @@ h1
 	display: block;
 }
 
-#pfp-summary{
-	padding-top: 125px;
-	padding-bottom: 25px;
-}
-
 #main-header{
+	height: 100%;
 	text-align: center;
 	background-image: url(img/background.jpg);
 	background-size: 100%;
@@ -62,15 +71,16 @@ p
 {
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	margin-top: -5px;
+	margin: 0px;
 }
 
 #nav a
 {
-	font-size: 1.2em;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 1em;
 	padding: 10px;
 	display: inline-block;
-	list-style-type: none;
 	color: gray;
 	text-decoration: none;
 }
@@ -78,6 +88,12 @@ p
 #nav a:hover
 {
 	color: #2D90A9;
+}
+
+#nav p
+{
+	margin: 0;
+	padding: 0;
 }
 
 
