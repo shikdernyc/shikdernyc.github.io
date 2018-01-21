@@ -5,7 +5,7 @@ html, body , header, main{
 
 main
 {
-	background-color: white;
+	/*background-color: black;*/
 }
 
 h1
@@ -23,6 +23,16 @@ h1
 	border-bottom-style: inset;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+h2{
+	/*display: inline-block;*/
+	/*box-shadow: 0 3px 5px silver;*/
+	/*color: white;*/
+}
+
+p{
+	/*color: white;*/
 }
 
 #pfp-summary{
@@ -130,6 +140,7 @@ p
 
 .shadow-box
 {
+	/*background-color: gray;*/
 	/*padding: 3%;*/
 	box-shadow: 0 3px 5px 3px silver;
 }
